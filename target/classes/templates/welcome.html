@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>WELCOME</h1>
+    <form th:action="@{/logout}" method="post" class="d-flex" role="search">
+        <button class="btn btn-outline-success" type="submit">Sign Out</button>
+    </form>
+</body>
+</html>
