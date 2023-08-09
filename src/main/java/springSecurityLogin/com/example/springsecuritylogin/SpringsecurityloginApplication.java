@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class
 
 SpringsecurityloginApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(SpringsecurityloginApplication.class, args);
 	}
