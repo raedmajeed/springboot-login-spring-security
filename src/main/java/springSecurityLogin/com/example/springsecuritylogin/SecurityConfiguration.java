@@ -42,7 +42,6 @@ public class SecurityConfiguration {
                 .deleteCookies("JSESSIONID")
                 );
         return http.build();
-
     }
 
     @Bean
